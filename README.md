@@ -25,12 +25,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+   Web tokens don't need a database.
 
 2. What does `bcrypt` do to help us store passwords in a secure manner.
+   It creates a complex password.
 
 3. How are unit tests different from integration and end-to-end testing.
+   They are more specific.
 
 4. How _Test Driven Development_ changes the way we write applications and tests.
+   We would write the tests first and then create our code.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -74,3 +78,16 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete after receiving your pull-request
+
+npm init -y
+npx gitignore node //only if there is not gitignore in project
+npm i -D nodemon
+npm i express
+npm i knex sqlite3
+npm i knex-cleaner
+npm i cors
+npm i helmet
+npm i dotenv
+npm i bcryptjs
+npm i express-session
+npm i connect-session-knex
